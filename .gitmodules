@@ -1,0 +1,3 @@
+[submodule "toastr"]
+	path = toastr
+	url = https://github.com/CodeSeven/toastr.git

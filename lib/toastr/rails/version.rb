@@ -1,5 +1,5 @@
 module Toastr
   module Rails
-    VERSION = "1.0.3"
+    VERSION = "1.3.1"
   end
 end
