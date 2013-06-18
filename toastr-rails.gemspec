@@ -9,52 +9,63 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.6") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tyler Gannon"]
-  s.date = "2012-08-10"
+  s.date = "2013-06-18"
   s.description = "Toastr: Simple javascript toast notifications, plugged into the rails asset pipeline."
   s.email = ["tgannon@gmail.com"]
   s.extra_rdoc_files = [
     "README.md"
   ]
   s.files = [
-    ".rvmrc",
+    ".gitmodules",
+    ".ruby-gemset",
     "GPL-LICENSE.txt",
     "Gemfile",
     "Gemfile.lock",
     "MIT-LICENSE.txt",
     "README.md",
     "Rakefile",
-    "index.html",
     "lib/toastr-rails.rb",
     "lib/toastr/rails.rb",
     "lib/toastr/rails/engine.rb",
     "lib/toastr/rails/version.rb",
     "toastr-rails.gemspec",
-    "toastr-responsive.css",
-    "toastr.css",
-    "toastr.js",
-    "vendor/assets/javascripts/toastr.js",
+    "vendor/assets/javascripts/toastr.min.js",
     "vendor/assets/stylesheets/toastr-responsive.css",
-    "vendor/assets/stylesheets/toastr.css"
+    "vendor/assets/stylesheets/toastr.min.css"
   ]
-  s.homepage = "https://github.com/CodeSeven/toastr"
+  s.homepage = "https://github.com/tylergannon/toastr-rails"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.23"
+  s.rubygems_version = "2.0.3"
   s.summary = "Toastr: Simple javascript toast notifications"
 
   if s.respond_to? :specification_version then
-    s.specification_version = 3
+    s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<toastr-rails>, [">= 0"])
+      s.add_development_dependency(%q<bundler>, [">= 1.1.3"])
+      s.add_development_dependency(%q<jeweler>, [">= 1.8.3"])
       s.add_runtime_dependency(%q<railties>, [">= 3.1.0"])
       s.add_development_dependency(%q<bundler>, [">= 1.1.3"])
       s.add_development_dependency(%q<jeweler>, [">= 1.8.3"])
+      s.add_development_dependency(%q<version>, [">= 0"])
     else
+      s.add_dependency(%q<toastr-rails>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 1.1.3"])
       s.add_dependency(%q<jeweler>, [">= 1.8.3"])
+      s.add_dependency(%q<railties>, [">= 3.1.0"])
+      s.add_dependency(%q<bundler>, [">= 1.1.3"])
+      s.add_dependency(%q<jeweler>, [">= 1.8.3"])
+      s.add_dependency(%q<version>, [">= 0"])
     end
   else
+    s.add_dependency(%q<toastr-rails>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 1.1.3"])
     s.add_dependency(%q<jeweler>, [">= 1.8.3"])
+    s.add_dependency(%q<railties>, [">= 3.1.0"])
+    s.add_dependency(%q<bundler>, [">= 1.1.3"])
+    s.add_dependency(%q<jeweler>, [">= 1.8.3"])
+    s.add_dependency(%q<version>, [">= 0"])
   end
 end
 
