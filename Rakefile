@@ -32,7 +32,7 @@ Jeweler::Tasks.new do |gem|
   gem.add_development_dependency "jeweler", ">= 1.8.3"
   gem.add_development_dependency "version"
 
-  gem.files        = `git ls-files`.split("\n").reject { |f| f =~ /^tests/ }
+  gem.files        = `git ls-files`.split("\n").reject { |f| f =~ /^tests/ || f =~ /\A\./ }
   gem.require_path = 'lib'
 end
 
