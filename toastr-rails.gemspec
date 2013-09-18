@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
     "vendor/assets/javascripts/toastr.min.js",
     "vendor/assets/stylesheets/toastr.min.css"
   ]
+  s.licenses = ['MIT', 'GPL-2']
   s.homepage = "https://github.com/tylergannon/toastr-rails"
   s.require_paths = ["lib"]
   s.rubygems_version = "2.1.4"
