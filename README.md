@@ -2,7 +2,7 @@
 **toastr** is a Javascript library for Gnome / Growl type non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended.
 
 ## Current Version
-1.3.1
+2.0.1
 
 
 ## Demo
@@ -17,10 +17,9 @@ For other API calls, see the [demo](http://CodeSeven.github.com/toastr).
 
 2. Add toastr to application.css and application.js:
 
-    *= require toastr.min
-    *= require toastr-responsive
+    *= require toastr
     
-    //= require toastr.min
+    //= require toastr
 
 3. use toastr to display a toast for info, success, warning or error
 
@@ -55,7 +54,7 @@ Inspired by https://github.com/Srirangan/notifer.js/.
 
 ## Copyright
 
-Copyright © 2012 [Hans Fjällemark](http://twitter.com/hfjallemark) & [John Papa](http://twitter.com/John_Papa).
+Copyright © 2013 [Hans Fjällemark](http://twitter.com/hfjallemark) & [John Papa](http://twitter.com/John_Papa).
 
 ## License 
 
