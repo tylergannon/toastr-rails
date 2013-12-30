@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "toastr-rails"
-  s.version = "1.3.1"
+  s.version = "2.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.6") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tyler Gannon"]
-  s.date = "2013-06-18"
+  s.date = "2013-09-18"
   s.description = "Toastr: Simple javascript toast notifications, plugged into the rails asset pipeline."
   s.email = ["tgannon@gmail.com"]
   s.extra_rdoc_files = [
@@ -28,12 +28,12 @@ Gem::Specification.new do |s|
     "lib/toastr/rails/engine.rb",
     "toastr-rails.gemspec",
     "vendor/assets/javascripts/toastr.min.js",
-    "vendor/assets/stylesheets/toastr-responsive.css",
     "vendor/assets/stylesheets/toastr.min.css"
   ]
+  s.licenses = ['MIT', 'GPL-2']
   s.homepage = "https://github.com/tylergannon/toastr-rails"
   s.require_paths = ["lib"]
-  s.rubygems_version = "2.0.3"
+  s.rubygems_version = "2.1.4"
   s.summary = "Toastr: Simple javascript toast notifications"
 
   if s.respond_to? :specification_version then
