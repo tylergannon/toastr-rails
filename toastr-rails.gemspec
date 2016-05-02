@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "toastr-rails"
-  s.version = "2.0.1"
+  s.version = "2.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.6") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tyler Gannon"]
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.licenses = ['MIT', 'GPL-2']
   s.homepage = "https://github.com/tylergannon/toastr-rails"
   s.require_paths = ["lib"]
-  s.rubygems_version = "2.1.4"
+  s.rubygems_version = "2.2.0"
   s.summary = "Toastr: Simple javascript toast notifications"
 
   if s.respond_to? :specification_version then
