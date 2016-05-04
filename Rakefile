@@ -27,9 +27,9 @@ Jeweler::Tasks.new do |gem|
 
   gem.required_rubygems_version = ">= 1.3.6"
 
-  gem.add_runtime_dependency "railties", ">= 3.1.0"
-  gem.add_development_dependency "bundler", ">= 1.1.3"
-  gem.add_development_dependency "jeweler", ">= 1.8.3"
+  gem.add_runtime_dependency "railties", ">= 3.2.6"
+  gem.add_development_dependency "bundler", ">= 1.3.0"
+  gem.add_development_dependency "jeweler", ">= 2.0.1"
   gem.add_development_dependency "version"
 
   gem.files        = `git ls-files`.split("\n").reject { |f| f =~ /^tests/ || f =~ /\A\./ }
