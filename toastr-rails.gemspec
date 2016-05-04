@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [
     "README.md"
   ]
+=begin
   s.files = [
     "GPL-LICENSE.txt",
     "Gemfile",
@@ -30,6 +31,9 @@ Gem::Specification.new do |s|
     "vendor/assets/javascripts/toastr.js",
     "vendor/assets/stylesheets/toastr.css"
   ]
+=end
+
+  s.files = `git ls-files -- {lib,vendor}/* {MIT-LICENSE*,GPL-LICENSE*,Gemfile*,VERSION,LICENSE*,Rakefile,README*}`.split("\n")
   s.licenses = ['MIT', 'GPL-2']
   s.homepage = "https://github.com/tylergannon/toastr-rails"
   s.require_paths = ["lib"]
