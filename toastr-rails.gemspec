@@ -27,8 +27,8 @@ Gem::Specification.new do |s|
     "lib/toastr/rails.rb",
     "lib/toastr/rails/engine.rb",
     "toastr-rails.gemspec",
-    "vendor/assets/javascripts/toastr.min.js",
-    "vendor/assets/stylesheets/toastr.min.css"
+    "vendor/assets/javascripts/toastr.js",
+    "vendor/assets/stylesheets/toastr.css"
   ]
   s.licenses = ['MIT', 'GPL-2']
   s.homepage = "https://github.com/tylergannon/toastr-rails"
