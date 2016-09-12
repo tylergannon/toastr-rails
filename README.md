@@ -13,13 +13,15 @@ Demo can be found at http://CodeSeven.github.com/toastr
 ###3 Easy Steps
 For other API calls, see the [demo](http://CodeSeven.github.com/toastr).
 
-1. update gemfile: gem 'toastr-rails'
+1. update gemfile: 
+
+   `gem 'toastr-rails'`
 
 2. Add toastr to application.css and application.js:
 
-    *= require toastr
+    `*= require toastr`
     
-    //= require toastr
+    `//= require toastr`
 
 3. use toastr to display a toast for info, success, warning or error
 
