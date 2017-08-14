@@ -15,11 +15,8 @@ For other API calls, see the [demo](http://CodeSeven.github.com/toastr).
 
 1. update gemfile: gem 'toastr-rails'
 
-2. Add toastr to application.css and application.js:
-
-    *= require toastr
-    
-    //= require toastr
+2. Add toastr to application.css `*= require toastr`
+   and application.js `//= require toastr`
 
 3. use toastr to display a toast for info, success, warning or error
 
@@ -42,14 +39,14 @@ For other API calls, see the [demo](http://CodeSeven.github.com/toastr).
 
 **Hans Fjällemark**
 
-+ http://twitter.com/hfjallemark
++ [Hans Fjällemark Twitter](http://twitter.com/hfjallemark)
 
 **John Papa**
 
-+ http://twitter.com/John_Papa
++ [John Papa Twitter](http://twitter.com/John_Papa)
 
 ## Credits
-Inspired by https://github.com/Srirangan/notifer.js/.
+Inspired by [NotifierJs](https://github.com/Srirangan/notifer.js/).
 
 
 ## Copyright
