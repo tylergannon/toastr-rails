@@ -17,9 +17,9 @@ For other API calls, see the [demo](http://CodeSeven.github.com/toastr).
 
 2. Add toastr to application.css and application.js:
 
-    *= require toastr
+    *= require toastr.min
 
-    //= require toastr
+    //= require toastr.min
 
 3. use toastr to display a toast for info, success, warning or error
 
